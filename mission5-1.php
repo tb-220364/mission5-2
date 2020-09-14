@@ -8,9 +8,9 @@
 
 <?php
    // DB接続設定
-   $dsn = 'mysql:dbname=tb220364db;host=localhost';// ・データベース名：tb220364db
-   $user = 'tb-220364';// ・ユーザー名：tb-220364
-   $password = 'nfUwv7wbCb';
+   $dsn = 'mysql:dbname=データベース名;host=localhost';// ・データベース名：tb220364db
+   $user = 'ユーザー名';// ・ユーザー名：tb-220364
+   $password = 'パスワード';
    $pdo=new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
    //PHPとデータベースサーバーの間の接続を行う 
    //「 array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING) 」とは、データベース操作でエラーが発生した場合に警告
